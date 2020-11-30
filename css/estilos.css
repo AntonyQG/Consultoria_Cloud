@@ -188,6 +188,7 @@ header {
         background: #ddb146;
         color: #fff; }
 .main .reviews {
+  background: #3c4045;
   padding: 70px; }
   .main .reviews .titulo {
     text-align: center;
@@ -214,6 +215,7 @@ header {
       padding: 0 30px;
       margin-top: 20px; }
       .main .reviews .cliente .review .texto {
+        color: #fff;
         font-size: 18px;
         line-height: 28px;
         margin-bottom: 10px; }
@@ -229,9 +231,9 @@ header {
 
 /* ----- ----- FOOTER ----- ----- */
 footer .direccion {
-  background: #3c4045;
+  background: #fff;
   padding: 30px 0;
-  color: #fff; }
+  color: #000; }
   footer .direccion .titulo {
     font-size: 32px;
     line-height: 32px;
@@ -240,12 +242,15 @@ footer .direccion {
   footer .direccion .calle,
   footer .direccion .telefono,
   footer .direccion .correo {
-    margin-bottom: 10px; }
+    margin-bottom: 10px; 
+  }
   footer .direccion .logo img {
-    margin-top: 70px; }
+    margin-top: 70px; 
+  }
 footer .social {
   text-align: center;
-  padding: 20px 0; }
+  padding: 20px 0; 
+}
   footer .social a {
     padding: 10px;
     display: inline-block;
@@ -254,15 +259,29 @@ footer .social {
     font-size: 22px;
     color: #fff;
     background: #000;
-    border-radius: 100px; }
+    border-radius: 100px; 
+  }
     footer .social a:hover {
-      text-decoration: none; }
+      text-decoration: none; 
+    }
     footer .social a.facebook {
-      background: #3b5998; }
+      background: #3b5998; 
+    }
     footer .social a.twitter {
-      background: #55acee; }
+      background: #55acee; 
+    }
     footer .social a.youtube {
-      background: #cd201f; }
+      background: #cd201f; 
+    }
+    footer .mapa {
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    footer .mapa iframe {
+      width: 100%;
+      max-height: 600px;
+    }
 
 @media screen and (max-width: 992px) {
   header .contenedor_logo_menu .logo {
